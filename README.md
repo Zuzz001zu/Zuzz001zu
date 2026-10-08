@@ -1,6 +1,6 @@
 # Hi, I'm Zara Gadzhieva 👋
 
-**Front-end engineer** (JavaScript ES6+) with 12 years inside the technical core of international IP systems: PCT, Madrid and WIPO platforms.
+**Front-end engineer** (JavaScript ES6+) with 12 years inside the technical core of international IP systems.
 
 I build interfaces where **regulation, data and UX** meet.
 
