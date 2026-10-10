@@ -23,7 +23,7 @@ JavaScript (ES6+, modules, async/await) · HTML5 · CSS3 / Sass · REST APIs · 
 
 - XML data validation and regulatory data integrity
 - Access-control administration
-- International IP procedures: PCT, Madrid System, WIPO platforms
+- International IP procedures
 
 ## 📫 Contact
 
