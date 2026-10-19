@@ -1,30 +1,55 @@
 # Hi, I'm Zara Gadzhieva 👋
 
-**Front-end engineer** (JavaScript ES6+) with 12 years inside the technical core of international IP systems.
+Software developer · Python · SQL · JavaScript 
 
-I build interfaces where **regulation, data and UX** meet.
+I build backends and data pipelines for domains where mistakes are expensive:
+personal data, payroll, legal deadlines, regulated records. Two years of hands-on
+development, on top of 12 years inside international organisations,
+where I worked daily with structured XML data, cross-system reconciliation, access
+management and incident resolution.
 
-📍 Geneva, Switzerland · Swiss B permit · open to relocation  
-🎯 Looking for front-end / product engineering roles 
+That combination is what I bring to a team: I read a regulation or a business process,
+turn it into explicit rules, and ship them as tested, reviewed, documented code.
 
-## 🛠 Tech stack
+📍 Geneva · Swiss B permit · French, English, Russian
 
-JavaScript (ES6+, modules, async/await) · HTML5 · CSS3 / Sass · REST APIs · Git · Gulp · Vite · BEM · ESLint / Stylelint · GitHub Actions
+## Selected work
 
-## 🚀 Featured projects
+**[headcount-data-quality](https://github.com/Zuzz001zu/headcount-data-quality)** — data pipeline  
+Consolidates HR and payroll exports from three systems, runs 15 data quality rules
+(including AVS check-digit validation and HR ↔ payroll cross-checks), computes headcount,
+FTE and staff movements in SQL and generates an Excel report for the statistics team.  
+`Python` `pandas` `SQL` `openpyxl` · 65 tests · CI on Python 3.11–3.13 · report built as a CI artifact
 
-| Project | What it is | Stack |
-|---|---|---|
-| [Kekstagram](https://github.com/Zuzz001zu/2515105-kekstagram-2) · [demo](https://zuzz001zu.github.io/2515105-kekstagram-2/) | Image-sharing app with AI hashtag suggestions (DeepSeek API) | Vanilla JS, REST, Vite |
-| [Cat Energy](https://github.com/Zuzz001zu/2515105-cat-energy-2) · [demo](https://zuzz001zu.github.io/2515105-cat-energy-2/) | Responsive e-commerce site, automated build and deploy | Sass, Gulp, BEM, CI/CD |
-| [Sedona](https://github.com/Zuzz001zu/2515105-sedona-2) · [demo](https://zuzz001zu.github.io/2515105-sedona-2/) | Accessible marketing site, pixel-perfect | HTML5, CSS3 |
+**[helpdesk-api](https://github.com/Zuzz001zu/helpdesk-api)** — REST API  
+Ticketing backend with SLA due dates per priority, an enforced status workflow (invalid
+transitions return 409), comments and a statistics endpoint.  
+`FastAPI` `PostgreSQL` `SQLAlchemy 2.0` `Alembic` `Docker` · 30 tests run against PostgreSQL in CI
 
-## 🧩 Domain expertise
+**[textstats-go](https://github.com/Zuzz001zu/textstats-go)** — CLI tool  
+Text statistics from the command line with JSON output for scripting.  
+`Go` · CI on Linux, macOS and Windows · cross-compiled release binaries
 
-- XML data validation and regulatory data integrity
-- Access-control administration
-- International IP procedures
+**[Kekstagram](https://github.com/Zuzz001zu/2515105-kekstagram-2)** · [demo](https://zuzz001zu.github.io/2515105-kekstagram-2/) — front-end app  
+Image-sharing app in vanilla JavaScript with an LLM API for hashtag suggestions,
+13 modules, input validation and XSS protection.  
+`JavaScript ES6+` `REST` `Vite`
 
-## 📫 Contact
+## Engineering practices
 
-[LinkedIn](https://www.linkedin.com/in/zuzz/) · open to conversations, feel free to reach out
+- Business rules isolated from transport and storage, each with its own tests
+- Feature branches and pull requests; nothing merges without green CI
+- Database schema versioned with migrations; drift checked in CI (`alembic check`)
+- Validation at every boundary: API payloads, file imports, user input
+- Reproducible environments with Docker; secrets kept out of the code
+- Documentation that explains decisions, not only commands
+
+## Stack
+
+**Backend & data:** Python, FastAPI, Pydantic, SQLAlchemy, pandas, SQL (PostgreSQL, SQLite)  
+**Front-end:** JavaScript (ES6+), HTML, CSS / Sass, Vite  
+**Tooling:** pytest, Ruff, Docker, Git, GitHub Actions, Linux · Go for CLI tools
+
+## Contact
+
+[LinkedIn](https://www.linkedin.com/in/zuzz/)
