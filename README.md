@@ -15,6 +15,12 @@ turn it into explicit rules, and ship them as tested, reviewed, documented code.
 
 ## Selected work
 
+**[patent-xml-validator](https://github.com/Zuzz001zu/patent-xml-validator)** - XML data validation  
+Checks PCT patent bibliographic data: schema validation with line numbers, 18 PCT business
+rules (priority periods, numbering, kind codes, receiving office competence), XXE-safe parsing,
+results stored in SQL and an HTML report for the people correcting the data.  
+`Java 21` `XML / XSD` `JDBC` `H2` `JUnit 5` · CI with a generated report
+
 **[headcount-data-quality](https://github.com/Zuzz001zu/headcount-data-quality)** - data pipeline  
 Consolidates HR and payroll exports from three systems, runs 15 data quality rules
 (including AVS check-digit validation and HR ↔ payroll cross-checks), computes headcount,
