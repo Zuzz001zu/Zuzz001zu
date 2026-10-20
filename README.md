@@ -1,6 +1,6 @@
 # Hi, I'm Zara Gadzhieva 👋
 
-Software developer · Python · SQL · JavaScript 
+Software developer · Python, Java, SQL · Geneva
 
 I build backends and data pipelines for domains where mistakes are expensive:
 personal data, payroll, legal deadlines, regulated records. Two years of hands-on
